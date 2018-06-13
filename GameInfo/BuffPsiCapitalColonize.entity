@@ -1,0 +1,68 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 2
+periodicAction
+	actionCountType "Finite"
+	actionCount
+		Level:0 2.000000
+		Level:1 2.000000
+		Level:2 2.000000
+		Level:3 3.000000
+	actionIntervalTime
+		Level:0 7.500000
+		Level:1 7.500000
+		Level:2 7.500000
+		Level:3 7.500000
+	buffInstantActionType "CreatePlanetModule"
+	instantActionTriggerType "AlwaysPerform"
+	planetModuleType "PLANETMODULE_PSIORBITALBEAMDEFENSE"
+	spawnPlanetModuleSoundID "EFFECT_DEPLOYSIEGETURRET"
+periodicAction
+	actionCountType "Finite"
+	actionCount
+		Level:0 0.000000
+		Level:1 1.000000
+		Level:2 2.000000
+		Level:3 3.000000
+	actionIntervalTime
+		Level:0 7.500000
+		Level:1 7.500000
+		Level:2 7.500000
+		Level:3 7.500000
+	buffInstantActionType "CreatePlanetModule"
+	instantActionTriggerType "AlwaysPerform"
+	planetModuleType "PLANETMODULE_PSIORBITALHANGARDEFENSE"
+	spawnPlanetModuleSoundID "EFFECT_DEPLOYSIEGETURRET"	
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "PlanetUpgradeCost"
+	value
+		Level:0 -0.400000
+		Level:1 -0.550000
+		Level:2 -0.700000
+		Level:3 -0.850000
+entityModifier
+	buffEntityModifierType "PlanetUpgradeBuildRateAdjustment"
+	value
+		Level:0 0.400000
+		Level:1 0.500000
+		Level:2 0.600000
+		Level:3 0.750000		
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 1800.000000
+		Level:1 2040.000000
+		Level:2 2400.000000
+		Level:3 3200.000000

@@ -1,0 +1,92 @@
+TXT
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 2
+spawnShips
+	minFleetPoints 50.000000
+	maxFleetPoints 90.000000
+	requiredShipCount 0
+	randomShipCount 6
+	randomShip
+		type "FrigatePsiLight"
+		weight 2
+	randomShip
+		type "FrigatePsiLongRange"
+		weight 6
+	randomShip
+		type "FrigatePsiHeavy"
+		weight 6
+	randomShip
+		type "FrigatePsiCarrier"
+		weight 5
+	randomShip
+		type "FrigatePsiAntiModule"
+		weight 4		
+	randomShip
+		type "FrigatePsiSiege"
+		weight 2				
+spawnShips
+	minFleetPoints 90.000000
+	maxFleetPoints 140.000000
+	requiredShipCount 0
+	randomShipCount 6
+	randomShip
+		type "FrigatePsiLight"
+		weight 2
+	randomShip
+		type "FrigatePsiLongRange"
+		weight 6
+	randomShip
+		type "FrigatePsiHeavy"
+		weight 6
+	randomShip
+		type "FrigatePsiCarrier"
+		weight 5
+	randomShip
+		type "FrigatePsiAntiModule"
+		weight 5
+	randomShip
+		type "FrigatePsiSiege"
+		weight 2								
+spawnShipsArrivalDelayTime 10.000000
+spawnShipsHyperspaceSpawnType "PirateRaid"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 2
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 5.000000
+	Level:1 7.000000
+	Level:2 0.000000
+	Level:3 0.000000
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 125.000000
+	Level:1 200.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 600.000000
+	Level:1 600.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_UNITYCALLS_NAME"
+descStringID "IDS_ABILITY_UNITYCALLS_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_EXPULSION"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_EXPULSION"
+infoCardIcon ""

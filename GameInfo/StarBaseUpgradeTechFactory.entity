@@ -1,0 +1,84 @@
+﻿TXT
+entityType "StarBaseUpgrade"
+stageCount 4
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "IDS_STARBASEUPGRADETECHFACTORY_NAME"
+	descStringID "IDS_STARBASEUPGRADETECHFACTORY_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeTechFactory0"
+	smallHudIcon "HUDIconStarBaseUpgradeTechFactory0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1800.000000
+		metal 275.000000
+		crystal 150.000000
+	upgradeTime 20.000000
+	nameStringID "IDS_STARBASEUPGRADETECHFACTORY_NAME"
+	descStringID "IDS_STARBASEUPGRADETECHFACTORY_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeTechFactory0"
+	smallHudIcon "HUDIconStarBaseUpgradeTechFactory0"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "FrigateBuildRate"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 2700.000000
+		metal 350.000000
+		crystal 225.000000
+	upgradeTime 40.000000
+	nameStringID "IDS_STARBASEUPGRADETECHFACTORY_NAME"
+	descStringID "IDS_STARBASEUPGRADETECHFACTORY_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeTechFactory1"
+	smallHudIcon "HUDIconStarBaseUpgradeTechFactory1"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "FrigateBuildRate"
+		value 2.500000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 3400.000000
+		metal 450.000000
+		crystal 300.000000
+	upgradeTime 60.000000
+	nameStringID "IDS_STARBASEUPGRADETECHFACTORY_NAME"
+	descStringID "IDS_STARBASEUPGRADETECHFACTORY_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDICON_RESEARCHSUBJECT_PLANETMODULEIMPROVEMENT_TECHINDUSTRY_CAPITALSHIPCONSTRUCTION"
+	smallHudIcon "HUDICON_RESEARCHSUBJECT_PLANETMODULEIMPROVEMENT_TECHINDUSTRY_CAPITALSHIPCONSTRUCTION"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "FrigateBuildRate"
+		value 4.000000
+	upgradeBoolPropertyCount 0	
+xpModifier 25.000000

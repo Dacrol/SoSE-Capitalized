@@ -1,0 +1,134 @@
+﻿TXT
+entityType "PlanetModuleWeaponDefense"
+minZoomDistanceMult 2.500000
+ability:0 "AbilityDefenseSynergy"
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+numRandomDebrisLarge 5
+numRandomDebrisSmall 18
+numSpecificDebris 0
+armorType "Module"
+hudIcon "HUDICON_PLANETMODULE_PSIORBITALBEAMDEFENSE"
+smallHudIcon "HUDICONSMALL_PLANETMODULE_PSIORBITALBEAMDEFENSE"
+infoCardIcon "INFOCARDICON_PLANETMODULE_PSIORBITALBEAMDEFENSE"
+planetUpgradeSlotType "Tactical"
+planetUpgradeSlotCount 2.000000
+basePrice
+	credits 500.000000
+	metal 100.000000
+	crystal 75.000000
+NameStringID "IDS_PLANETMODULE_PSIORBITALBEAMDEFENSE_NAME"
+DescriptionStringID "IDS_PLANETMODULE_PSIORBITALBEAMDEFENSE_DESCRIPTION"
+planetModuleRoleType "WEAPONDEFENSE"
+statCountType "ModulePointDefense"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MaxHullPoints 3000.000000
+HullPointRestoreRate 2.000000
+BaseArmorPoints 12.000000
+MaxShieldPoints 0.000000
+ShieldPointRestoreRate 2.500000
+maxShieldMitigation 0.600000
+ExperiencePointsForDestroying 50.000000
+resourceExtractionType "Invalid"
+cultureSpreadRate 0.000000
+isAffectedBySimilarModuleCostResearch FALSE
+placementRadius 340.000000
+nearPlacementDistOffset 0.000000
+farPlacementDistOffset 9000.000000
+spawnCount 1
+swapMineType ""
+angularSpeed 27.999992
+rotateSoundName ""
+rotateFacingType "None"
+rotateConstantly FALSE
+ShieldMeshName "Shield_ModulePsiBeamDefense"
+renderShield TRUE
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "PLANETMODULE_PSIORBITALBEAMDEFENSE_ONSELECTION_0"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 2
+MeshNameInfo
+	meshName "PlanetModule_PsiOrbitalBeamDefense"
+	criteriaType "None"
+MeshNameInfo
+	meshName "PlanetModule_PsiOrbitalBeamDefenseUpgraded"
+	criteriaType "Research"
+	prerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_ABILITYACCESS_SYNERGY"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExplosionName "PlanetModuleSmall"
+mainViewIcon "MAINVIEWICON_PLANETMODULE_PSIORBITALBEAMDEFENSE"
+picture "PLANETMODULEPICTURE_PSIORBITALBEAMDEFENSE"
+minShadow 0.000000
+maxShadow 0.300000
+formationRank 3
+baseBuildTime 45.000000
+buildEffectName ""
+defaultAutoAttackRange "None"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+NumWeapons 1
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 312.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 36000.000000
+	PreBuffCooldownTime 8.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 1.000000
+	TravelSpeed 5000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.350000
+		fireDelay 0.100000
+		muzzleEffectName "Weapon_Psi_PlasmaCapital_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE"
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_Psi_PlasmaCapital_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_PlasmaCapital_Travel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
